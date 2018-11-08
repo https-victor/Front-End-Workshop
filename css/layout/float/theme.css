@@ -8,6 +8,7 @@ header{
   margin: 0 auto;
 }
 .logo-wrapper{
+  float: left;
   padding: 0.6rem 0 0 1rem;
   margin: 0;
 }
@@ -17,6 +18,16 @@ header{
   max-width: 11rem;
   width: auto;
   height: auto;
+}
+.supernav-wrapper{
+  position: absolute;
+  top: 2.5em;
+  right: 36em;
+  width: auto;
+}
+.supernav-item{
+  float: left;
+  padding: 0.4em;
 }
 .background{
   background-image: url("img/jpg/teste.jpg");
